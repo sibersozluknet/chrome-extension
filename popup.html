@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Baloncuk</title>
+    <meta charset="utf-8">
+    <link href="popup.css" rel="stylesheet">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>BrowsingData API Örneği</h1>
+    <div role="main">
+      <form>
+        <label for="timeframe">Tüm tarama verilerini şuradan kaldırın:</label>
+        <select id="timeframe">
+          <option value="hour">Geçtiğimiz saat</option>
+          <option value="day">Geçen gün</option>
+          <option value="week">Geçen hafta</option>
+          <option value="4weeks">Son dört hafta</option>
+          <option value="forever">Zamanın başlangıcı</option>
+        </select>
+        <button id="button">YOK ET!</button>
+      </form>
+    </div>
+  </body>
+</html>

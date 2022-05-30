@@ -1,0 +1,13 @@
+{
+  "name" : "Cache Temizleyici",
+  "version" : "1.0",
+  "description" : "Siber sözlük önemsiz bir kullanım örneği.",
+  "permissions": [
+    "browsingData"
+  ],
+  "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
